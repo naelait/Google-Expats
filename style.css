@@ -76,7 +76,6 @@ figure {
 }
 
 .menu > li {
-  background: #34495e;
   float: left;
   position: relative;
 }
@@ -93,7 +92,9 @@ figure {
 .menu li:hover {
   background: #e74c3c;
 }
-
+.active {
+  background-color: #e74c3c;
+}
 .menu > li > a {
   padding: 1em 2em;
 }

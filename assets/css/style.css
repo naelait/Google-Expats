@@ -1,6 +1,5 @@
 html{
   background-image: url(../../images/background.png);
-  min-width: 910px;
 }
 * {
   margin: 0;
@@ -112,4 +111,15 @@ figure {
 
 .menu > li:hover .submenu li:nth-child(odd){
   transform: skewX(-25deg) translateX(-15px);
+}
+
+@media screen and (max-width: 690px) {
+  body {
+    width: 100%
+  }
+  nav .menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }

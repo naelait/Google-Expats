@@ -60,6 +60,7 @@ figure img {
 }
 figure {
   margin: 20px;
+  border: 1px solid black;
 }
 /* Mini reset, no margins, paddings or bullets */
 .menu,
@@ -76,6 +77,7 @@ figure {
 }
 
 .menu > li {
+  background: #34495e;
   float: left;
   position: relative;
 }
@@ -93,7 +95,7 @@ figure {
   background: #e74c3c;
 }
 .active {
-  background-color: #e74c3c;
+  background: #e74c3c;
 }
 .menu > li > a {
   padding: 1em 2em;

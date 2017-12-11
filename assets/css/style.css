@@ -123,3 +123,12 @@ figure {
     flex-direction: column;
   }
 }
+article a {
+  text-align: left;
+  display: block;
+  margin: 20px;
+  padding: 0;
+}
+h1 {
+  padding: 10px;
+}

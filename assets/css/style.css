@@ -113,16 +113,6 @@ figure {
   transform: skewX(-25deg) translateX(-15px);
 }
 
-@media screen and (max-width: 690px) {
-  body {
-    width: 100%
-  }
-  nav .menu {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-}
 article a {
   text-align: left;
   display: block;
@@ -132,13 +122,32 @@ article a {
 h1 {
   padding: 10px;
 }
-article img {
+section img {
   display: block;
   width: auto;
-  height:400px;
+  height: 400px;
   margin-top : 20px;
   margin-bottom : 20px;
 }
+
+@media screen and (max-width: 785px) {
+  body {
+    width: 100%
+  }
+  nav .menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  section img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+  }
+}
+
 /*article img {
   display: block;
   width: 100%;
